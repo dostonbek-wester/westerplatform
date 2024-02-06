@@ -1,0 +1,135 @@
+.BirinchiDars {
+  display: flex;
+  height: auto;
+  padding-bottom: 50px;
+}
+.BirinchiDars .left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.BirinchiDars .left .ytp-cued-thumbnail-overlay {
+  width: auto !important;
+  height: 480px !important;
+}
+.BirinchiDars .left p {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.BirinchiDars .left h1 {
+  text-align: start;
+  margin-top: 20px;
+}
+.BirinchiDars .left .meet .rasm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BirinchiDars .left .name {
+  display: flex;
+  margin-top: 10px;
+  gap: 3px;
+  align-items: baseline;
+}
+.BirinchiDars .left .uni-n p {
+  margin-top: 13px;
+  font-size: 19px;
+}
+.BirinchiDars .left .only-m {
+  margin-top: 20px;
+}
+.BirinchiDars .left .only-m p {
+  margin-top: 10px;
+  font-size: 19px;
+}
+.BirinchiDars .left .only-m .img-s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.BirinchiDars .left .dars-u {
+  margin-top: 30px;
+}
+.BirinchiDars .left .dars-u p {
+  margin-top: 20px;
+}
+.BirinchiDars .left .dars-u h3 {
+  margin-top: 20px;
+}
+.BirinchiDars .left .dars-s {
+  margin-top: 30px;
+}
+.BirinchiDars .left .dars-s p {
+  margin-top: 20px;
+}
+.BirinchiDars .left .dars-s ul li {
+  margin-top: 10px;
+}
+.BirinchiDars .left .nma-p {
+  margin-top: 30px;
+}
+.BirinchiDars .left .nma-p p {
+  margin-top: 20px;
+}
+.BirinchiDars .left .py-s {
+  margin-top: 30px;
+}
+.BirinchiDars .left .py-s ul li {
+  margin-top: 20px;
+}
+.BirinchiDars .left .py-s .qwe {
+  width: auto;
+  height: 750px;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.BirinchiDars .left .py-s .web {
+  width: 860px;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.BirinchiDars .left .box {
+  width: 850px;
+  height: 90px;
+  border: 1px solid #e3e8ed;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.BirinchiDars .left .box a {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5f6c78;
+}
+.BirinchiDars .left .box a .next {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.right p {
+  font-weight: 500;
+  color: #5f6c78;
+  margin-top: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  color: var(--text-primary);
+  -webkit-box-orient: vertical;
+}/*# sourceMappingURL=BirinchiDars.css.map */

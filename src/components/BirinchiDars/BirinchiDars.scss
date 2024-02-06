@@ -1,0 +1,141 @@
+.BirinchiDars {
+  display: flex;
+  height: auto;
+  padding-bottom: 50px;
+  .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    .ytp-cued-thumbnail-overlay {
+      width: auto !important;
+      height: 480px !important;
+    }
+    p {
+      text-align: left;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      text-align: start;
+      margin-top: 20px;
+    }
+    .meet {
+      .rasm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .name {
+      display: flex;
+      margin-top: 10px;
+      gap: 3px;
+      align-items: baseline;
+    }
+    .uni-n {
+      p {
+        margin-top: 13px;
+        font-size: 19px;
+      }
+    }
+    .only-m {
+      margin-top: 20px;
+      p {
+        margin-top: 10px;
+        font-size: 19px;
+      }
+      .img-s {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+    }
+    .dars-u {
+      margin-top: 30px;
+      p {
+        margin-top: 20px;
+      }
+      h3 {
+        margin-top: 20px;
+      }
+    }
+    .dars-s {
+      margin-top: 30px;
+      p {
+        margin-top: 20px;
+      }
+      ul {
+        li {
+          margin-top: 10px;
+        }
+      }
+    }
+    .nma-p {
+      margin-top: 30px;
+      p {
+        margin-top: 20px;
+      }
+    }
+    .py-s {
+      margin-top: 30px;
+      ul {
+        li {
+          margin-top: 20px;
+        }
+      }
+      .qwe {
+        width: auto;
+        height: 750px;
+        background-size: cover;
+        object-fit: cover;
+      }
+      .web {
+        width: 860px;
+        background-size: cover;
+        object-fit: cover;
+      }
+    }
+    .box {
+      width: 850px;
+      height: 90px;
+      border: 1px solid #e3e8ed;
+      border-radius: 10px;
+      margin-top: 30px;
+      a {
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #5f6c78;
+        .next {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+.right {
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+
+  p {
+    font-weight: 500;
+    color: #5f6c78;
+    margin-top: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    color: var(--text-primary);
+    -webkit-box-orient: vertical;
+  }
+}

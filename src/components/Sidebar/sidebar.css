@@ -1,0 +1,88 @@
+.Sidebar {
+  position: relative;
+}
+.Sidebar .MuiBox-root {
+  position: absolute;
+  width: 300px;
+  height: calc(100vh - 80px);
+  top: 0;
+  left: 0;
+  padding: 16px 0px 16px 24px;
+  border-right: 1px solid #e3e8ed;
+  overflow-y: auto;
+}
+.Sidebar .MuiBox-root .Card #ListButton.MuiButtonBase-root {
+  color: #5c6975;
+}
+.Sidebar .MuiBox-root .Card #ListButton.MuiButtonBase-root .MuiListItemText-root .MuiTypography-root {
+  color: #656973;
+  font-weight: 600;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root:hover {
+  background: #ebeff2;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root:focus,
+.Sidebar .MuiBox-root .Card #ListButton.MuiButtonBase-root:focus {
+  background: #fbfdfc;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root:focus .MuiListItemIcon-root .MuiSvgIcon-root,
+.Sidebar .MuiBox-root .Card #ListButton.MuiButtonBase-root:focus .MuiListItemIcon-root .MuiSvgIcon-root {
+  color: #e7e9e8;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root:focus .MuiListItemText-root .MuiTypography-root,
+.Sidebar .MuiBox-root .Card #ListButton.MuiButtonBase-root:focus .MuiListItemText-root .MuiTypography-root {
+  color: #e7e9e8;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root {
+  height: auto;
+  border: 1px solid #fff;
+  border-right: none;
+  border-radius: 5px;
+  padding: 0px 8px;
+  margin: 0px 8px 4px 0px;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root .MuiListItemIcon-root {
+  min-width: 34px;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root .MuiListItemIcon-root .MuiSvgIcon-root {
+  height: 18px;
+  width: 18px;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root .MuiListItemText-root {
+  margin: 0px;
+  padding: 4px 0px;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root .MuiListItemText-root .MuiTypography-root {
+  color: #5c6975;
+  text-transform: uppercase;
+  line-height: 22px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root .MuiTouchRipple-root {
+  display: none;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root.Mui-selected:hover {
+  background: #e4eefe;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root.Mui-selected:active {
+  background: #fdfdff !important;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root.Mui-selected:active .MuiListItemIcon-root .MuiSvgIcon-root {
+  color: #dfdff9 !important;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root.Mui-selected:active .MuiListItemText-root .MuiTypography-root {
+  color: #dfdff9 !important;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root.Mui-selected {
+  background-color: #f3f3fb !important;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root.Mui-selected .MuiListItemIcon-root .MuiSvgIcon-root {
+  color: #6060e6 !important;
+}
+.Sidebar .MuiBox-root .Card .MuiButtonBase-root.Mui-selected .MuiListItemText-root .MuiTypography-root {
+  color: #6060e6 !important;
+  font-weight: 600;
+}/*# sourceMappingURL=sidebar.css.map */

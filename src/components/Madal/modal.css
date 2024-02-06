@@ -1,0 +1,71 @@
+.MuiModal-root,
+.css-79ws1d-MuiModal-root {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.MuiModal-root .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop,
+.css-79ws1d-MuiModal-root .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.68);
+}
+.MuiModal-root .MuiBox-root,
+.css-79ws1d-MuiModal-root .MuiBox-root {
+  width: 40%;
+  max-height: 780px;
+  border-radius: 8px;
+  margin: 80px 24px;
+  padding: 0px 24px 16px;
+  background-color: #fff;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+.MuiModal-root .MuiBox-root .search,
+.css-79ws1d-MuiModal-root .MuiBox-root .search {
+  display: flex;
+  align-items: center;
+}
+.MuiModal-root .MuiBox-root .search .MuiSvgIcon-root,
+.css-79ws1d-MuiModal-root .MuiBox-root .search .MuiSvgIcon-root {
+  color: #4eaac8;
+}
+.MuiModal-root .MuiBox-root .search input,
+.css-79ws1d-MuiModal-root .MuiBox-root .search input {
+  width: 100%;
+  padding: 16px;
+  line-height: 20px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+}
+.MuiModal-root .MuiBox-root .RSearches,
+.css-79ws1d-MuiModal-root .MuiBox-root .RSearches {
+  overflow-y: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding: 12px 16px 12px 24px;
+}
+.MuiModal-root .MuiBox-root .RSearches h5,
+.css-79ws1d-MuiModal-root .MuiBox-root .RSearches h5 {
+  text-transform: uppercase;
+  line-height: 17px;
+  color: #262930;
+  font-weight: normal;
+}
+.MuiModal-root .MuiBox-root .RSearches .manzil a,
+.css-79ws1d-MuiModal-root .MuiBox-root .RSearches .manzil a {
+  font-size: 12px;
+  color: #262930;
+}
+.MuiModal-root .MuiBox-root .RSearches .manzil a:hover,
+.css-79ws1d-MuiModal-root .MuiBox-root .RSearches .manzil a:hover {
+  text-decoration: underline;
+}
+.MuiModal-root .MuiBox-root .RSearches:hover,
+.css-79ws1d-MuiModal-root .MuiBox-root .RSearches:hover {
+  background: #f7f7f7;
+}/*# sourceMappingURL=modal.css.map */

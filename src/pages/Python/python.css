@@ -1,0 +1,10 @@
+.Python {
+  position: relative;
+}
+.Python .bigBox {
+  display: flex;
+  padding-top: 80px;
+}
+.Python .bigBox .VideoInfo {
+  margin-left: 300px;
+}/*# sourceMappingURL=python.css.map */
